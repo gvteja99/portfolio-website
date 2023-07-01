@@ -11,105 +11,97 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Stack Overflow Clone",
+        "startDate": "2022",
+        "description": "ఈ ప్రాజెక్ట్ స్టాక్ ఓవర్‌ఫ్లో యొక్క ప్రోటోటైప్, ఇది 3-టైర్ డిస్ట్రిబ్యూట్ వెబ్ అప్లికేషన్‌గా రూపొందించబడింది మరియు అమలు చేయబడింది. ఇది యూజర్ మరియు అడ్మిన్ పర్సనాలను మరియు కీర్తి నిర్వహణ, వీక్షణలు మరియు పేజినేషన్ వంటి ఫీచర్లను కలిగి ఉంటుంది. ఈవెంట్ స్ట్రీమింగ్ కోసం Kafka మరియు కాషింగ్ కోసం Redis వంటి సాంకేతికతలను ఉపయోగించి, అధిక వాల్యూమ్ ట్రాఫిక్‌ను నిర్వహించడానికి అప్లికేషన్ రూపొందించబడింది. సురక్షితమైన వినియోగదారు యాక్సెస్‌ని నిర్ధారించడానికి ఇది టోకెన్-ఆధారిత ప్రమాణీకరణను కూడా అమలు చేస్తుంది.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/stackOverflowClone/p3.png",
+          "images/portfolio/stackOverflowClone/p3.png"
         ],
-        "url": "",
+        "url": "https://github.com/gvteja99/stack-overflow-clone",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Uber Eats Clone",
+        "startDate": "2022",
+        "description": "ఇది Redis, Kafka మరియు GraphQL ని ఉపయోగించి ఉబెర్ ఈట్స్ మాదిరిగానే ఫుడ్ డెలివరీ అప్లికేషన్. ప్రాజెక్ట్ కస్టమర్ ప్రొఫైల్ మేనేజ్‌మెంట్, రెస్టారెంట్ సెర్చ్, ఫుడ్ ప్రిఫరెన్స్ ఫిల్టరింగ్, ఆర్డర్ ప్లేస్‌మెంట్ మరియు రెస్టారెంట్ మెనూ ఎడిటింగ్‌లను కలిగి ఉంది. నేను అదనపు లోడ్‌ను నిర్వహించడానికి కాఫ్కాను ఉపయోగించి మెసేజ్ క్యూ మిడిల్‌వేర్‌తో స్కేలబుల్ మైక్రోసర్వీస్ ఆర్కిటెక్చర్‌ని అమలు చేసాను. అతుకులు లేని వినియోగదారు అనుభవాన్ని మరియు భాగాల మధ్య సమర్థవంతమైన కమ్యూనికేషన్‌ను అందించడం ఈ అప్లికేషన్ లక్ష్యం.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/uberEatsClone/p3.jpg",
+          "images/portfolio/uberEatsClone/p3.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/gvteja99/uber-eats-clone",
         "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Etsy Clone",
+        "startDate": "2022",
+        "description": "ఈ ప్రాజెక్ట్ ఎట్సీ క్లోన్, ఇది Redux, Node.js, MongoDB మరియు GraphQL వంటి సాంకేతికతలను మెరుగుపరుస్తుంది. అప్లికేషన్ వినియోగదారులను ప్రొఫైల్‌లను సృష్టించడానికి, ఉత్పత్తులను బ్రౌజ్ చేయడానికి మరియు శోధించడానికి, వర్గాల వారీగా ఫిల్టర్ చేయడానికి, వారి కార్ట్‌కి అంశాలను జోడించడానికి మరియు కొనుగోళ్లు చేయడానికి అనుమతించింది. నేను గ్రాఫ్‌క్యూఎల్‌ని ఉపయోగించి సమర్థవంతమైన కమ్యూనికేషన్ మరియు డేటా రిట్రీవల్‌తో స్కేలబుల్ మైక్రోసర్వీస్ ఆర్కిటెక్చర్‌ని అమలు చేసాను. ప్రాజెక్ట్ ఆధునిక వెబ్ సాంకేతికతలను కలుపుతూ ఎట్సీ యొక్క కార్యాచరణ మరియు వినియోగదారు అనుభవాన్ని ప్రతిబింబించే లక్ష్యంతో ఉంది.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/etsyClone/p3.jpg",
+          "images/portfolio/etsyClone/p3.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/gvteja99/etsy-clone",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "ఫౌండేషన్ యేఐ",
+        "title": "సాఫ్ట్‌వేర్ ఇంజనీర్",
+        "years": "08.2020 - 07.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
+          "PyTorch",
+          "TensorFlow",
+          "GraphQL",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "AWS",
+          "Ansible",
+          "Bash"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "ఫౌండేషన్ యేఐ",
+        "title": "సాఫ్ట్‌వేర్ ఇంజనీర్ ఇంటర్న్",
+        "years": "01.2020 - 05.2020",
         "mainTech": [
-          "Angular 7/8"
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "Python",
+          "LabelBox",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bash",
+          "Pandas",
+          "Numpy"
+        ]
+      },
+      {
+        "company": "విన్సి ఐటి సర్వీసెస్",
+        "title": "సాఫ్ట్‌వేర్ ఇంజనీర్ ఇంటర్న్",
+        "years": "01.2018 - 07.2018",
+        "mainTech": [
+          "Android Studio"
+        ],
+        "technologies": [
+          "Java",
+          "Spring",
+          "C#"
         ]
       }
     ]
