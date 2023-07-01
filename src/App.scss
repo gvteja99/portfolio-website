@@ -2,12 +2,39 @@
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.4); 
+    // background: #555;
+	opacity: 0.5;
+    border-radius: 10px;    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa;
+  }
+
+
 
 .aligner {
 	display: flex;
@@ -31,8 +58,8 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	// height: 520px;
+	// min-height: 450px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -79,6 +106,31 @@ header {
 	padding-top: 80px;
 }
 
+.github-corner {
+	&:hover .octo-arm {
+	  animation: octocat-wave 560ms ease-in-out;
+	}
+  
+	@keyframes octocat-wave {
+	  0%, 100% {
+		transform: rotate(0);
+	  }
+	  20%, 60% {
+		transform: rotate(-25deg);
+	  }
+	  40%, 80% {
+		transform: rotate(10deg);
+	  }
+	}
+  
+	@media (max-width: 500px) {
+	  &:hover .octo-arm {
+		animation: none;
+	  }
+	}
+  }
+  
+  
 header h1 {
 	font-size: 400%;
 	text-align: center;
@@ -172,7 +224,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-height: 250px;
 }
 
 .polaroid span {

@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
           <span key={network.name} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+              <i className={network.class} aria-hidden="true"></i>
             </a>
           </span>
         );
@@ -22,10 +22,10 @@ class Footer extends Component {
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
-                Copyright &copy;{" "}
+                Designed by {" "}
                 {this.props.sharedBasicInfo
-                  ? this.props.sharedBasicInfo.name
-                  : "???"}
+                  ? this.props.sharedBasicInfo.nickName
+                  : "???"}. Shoutout to Dorota.
               </small>
             </div>
           </div>

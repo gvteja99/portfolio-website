@@ -1,117 +1,115 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Venky, a passionate Full Stack Developer with a knack for scaling applications. 💻🚀 From frontend magic using React.js and Vue.js to backend sorcery with Node.js, Django, and Flask, I've got you covered. 🎨🔥 But what truly sets me apart is my expertise in scaling applications. ⚡️🔝 Whether it's optimizing databases like MongoDB and PostgreSQL, deploying on cloud platforms like AWS and Azure, or implementing containerization with Docker and Kubernetes, I've got the skills to architect and scale applications effectively. Let's connect and build amazing solutions together! 🤝💡 #FullStackDeveloper #ScalingPro #CodeWizard",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "projects": "Recent Projects",
+        "skills": "Technical Skills",
+        "experience": "Professional Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Stack Overflow Clone",
+        "startDate": "2022",
+        "description": "This project is a prototype of Stack Overflow, designed and implemented as a 3-tier distributed web application. It incorporates user and admin personas and features such as reputation management, views, and pagination.The application is built to handle high volume traffic, using technologies such as Kafka for event streaming and Redis for caching. It also implements token-based authentication to ensure secure user access.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/stackOverflowClone/p3.png",
+          "images/portfolio/stackOverflowClone/p3.png"
         ],
-        "url": "",
+        "url": "https://github.com/gvteja99/stack-overflow-clone",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Uber Eats Clone",
+        "startDate": "2022",
+        "description": "This is a food delivery application, similar to UberEATS, using Redis, Kafka, and GraphQL. The project featured customer profile management, restaurant search, food preference filtering, order placement, and restaurant menu editing. I implemented a scalable microservices architecture with message queue middleware using Kafka to handle additional load. The application aimed to provide a seamless user experience and efficient communication between components.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/uberEatsClone/p3.jpg",
+          "images/portfolio/uberEatsClone/p3.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/gvteja99/uber-eats-clone",
         "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Etsy Clone",
+        "startDate": "2022",
+        "description": "This project is an Etsy clone, leveraging technologies such as Redux, Node.js, MongoDB, and GraphQL. The application allowed users to create profiles, browse and search for products, filter by categories, add items to their cart, and make purchases. I implemented a scalable microservices architecture with efficient communication and data retrieval using GraphQL. The project aimed to replicate the functionality and user experience of Etsy while incorporating modern web technologies.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/etsyClone/p3.jpg",
+          "images/portfolio/etsyClone/p3.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/gvteja99/etsy-clone",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Foundation AI",
+        "title": "Software Engineer",
+        "years": "08.2020 - 07.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
+          "PyTorch",
+          "TensorFlow",
+          "GraphQL",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "AWS",
+          "Ansible",
+          "Bash"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Foundation AI",
+        "title": "Software Engineer Intern",
+        "years": "01.2020 - 05.2020",
         "mainTech": [
-          "Angular 7/8"
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Python",
+          "LabelBox",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Bash",
+          "Pandas",
+          "Numpy"
+        ]
+      },
+      {
+        "company": "WinC IT Services",
+        "title": "Software Engineer Intern",
+        "years": "01.2018 - 07.2018",
+        "mainTech": [
+          "Java",
+          "Spring",
+          "Android Studio",
+          "C#",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "Python",
+          "LabelBox",
+          "JavaScript",
+          "Bash",
+          "Pandas",
+          "Numpy"
         ]
       }
     ]

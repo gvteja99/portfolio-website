@@ -1,68 +1,375 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Venkat Teja Golamaru",
+      "nickName": "Venky",
+      "titles": [ "Full-Stack Developer", "Dev-Ops Engineer", "Automation Engineer"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/gvteja99",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/gvteja",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "mailbox",
+          "url": "mailto:gvteja99@gmail.com",
+          "class": "fa fa-envelope"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.png"
     },
     "skills": {
-      "icons": [
+      "subSection": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "name": "Frontend Development",
+          "icons": [
+            {
+              "name": "Vue.js",
+              "class": "devicon-vuejs-plain",
+              "level": 99
+            },
+            {
+              "name": "React",
+              "class": "devicon-react-original-wordmark",
+              "level": 99
+            },
+            {
+              "name": "AngularJS",
+              "class": "devicon-angularjs-plain",
+              "level": 99
+            },
+            {
+              "name": "Gatsby",
+              "class": "devicon-gatsby-plain",
+              "level": 99
+            },
+            {
+              "name": "Bootstrap",
+              "class": "devicon-bootstrap-plain-wordmark",
+              "level": 99
+            },
+            {
+              "name": "CSS3",
+              "class": "devicon-css3-plain",
+              "level": 99
+            },
+            {
+              "name": "HTML5",
+              "class": "devicon-html5-plain",
+              "level": 99
+            },
+            {
+              "name": "Redux",
+              "class": "devicon-redux-original",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": "Backend Development",
+          "icons": [
+            {
+              "name": "Django",
+              "class": "devicon-django-plain",
+              "level": 99
+            },
+            {
+              "name": "Node.js",
+              "class": "devicon-nodejs-plain",
+              "level": 99
+            },
+            {
+              "name": "Spring",
+              "class": "devicon-spring-plain",
+              "level": 99
+            },
+            {
+              "name": "Express",
+              "class": "devicon-express-original-wordmark",
+              "level": 99
+            },
+            {
+              "name": "Flask",
+              "class": "devicon-flask-plain",
+              "level": 99
+            },
+            {
+              "name": "GraphQL",
+              "class": "devicon-graphql-plain",
+              "level": 99
+            },
+            {
+              "name": "Kafka",
+              "class": "devicon-apachekafka-original-wordmark",
+              "level": 99
+            },
+            {
+              "name": "Ruby on Rails",
+              "class": "devicon-rails-plain",
+              "level": 99
+            },
+            {
+              "name": "Nginx",
+              "class": "devicon-nginx-original",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "Databases",
+          "icons": [
+            {
+              "name": "MongoDB",
+              "class": "devicon-mongodb-plain",
+              "level": 99
+            },
+            {
+              "name": "MySQL",
+              "class": "devicon-mysql-plain",
+              "level": 99
+            },
+            {
+              "name": "Oracle",
+              "class": "devicon-oracle-plain",
+              "level": 99
+            },
+            {
+              "name": "PostgreSQL",
+              "class": "devicon-postgresql-plain",
+              "level": 99
+            },
+            {
+              "name": "Redis",
+              "class": "devicon-redis-plain",
+              "level": 99
+            },
+            {
+              "name": "SQLite",
+              "class": "devicon-sqlite-plain",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "name": "Mobile App Development",
+          "icons": [
+            {
+              "name": "Android",
+              "class": "devicon-androidstudio-plain",
+              "level": 99
+            },
+            {
+              "name": "Flutter",
+              "class": "devicon-flutter-plain",
+              "level": 99
+            },
+            {
+              "name": "React Native",
+              "class": "devicon-react-original-wordmark",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "name": "Programming Languages",
+          "icons": [
+            {
+              "name": "C",
+              "class": "devicon-c-plain",
+              "level": 99
+            },
+            {
+              "name": "C++",
+              "class": "devicon-cplusplus-plain",
+              "level": 99
+            },
+            {
+              "name": "Java",
+              "class": "devicon-java-plain",
+              "level": 99
+            },
+            {
+              "name": "JavaScript",
+              "class": "devicon-javascript-plain",
+              "level": 99
+            },
+            {
+              "name": "TypeScript",
+              "class": "devicon-typescript-plain",
+              "level": 99
+            },
+            {
+              "name": "Python",
+              "class": "devicon-python-plain",
+              "level": 99
+            },
+            {
+              "name": "PHP",
+              "class": "devicon-php-plain",
+              "level": 99
+            },
+            {
+              "name": "Ruby",
+              "class": "devicon-ruby-plain",
+              "level": 99
+            },
+            {
+              "name": "R",
+              "class": "devicon-r-plain",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Cloud & DevOps",
+          "icons": [
+            {
+              "name": "AWS",
+              "class": "devicon-amazonwebservices-plain",
+              "level": 99
+            },
+            {
+              "name": "Azure",
+              "class": "devicon-azure-plain",
+              "level": 99
+            },
+            {
+              "name": "Bash",
+              "class": "devicon-bash-plain",
+              "level": 99
+            },
+            {
+              "name": "Docker",
+              "class": "devicon-docker-plain",
+              "level": 99
+            },
+            {
+              "name": "GCP",
+              "class": "devicon-googlecloud-plain",
+              "level": 99
+            },
+            {
+              "name": "Kubernetes",
+              "class": "devicon-kubernetes-plain",
+              "level": 99
+            },
+            {
+              "name": "Jenkins",
+              "class": "devicon-jenkins-plain",
+              "level": 99
+            },
+            {
+              "name": "Heroku",
+              "class": "devicon-heroku-plain",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Data Science & Machine Learning",
+          "icons": [
+            {
+              "name": "TensorFlow",
+              "class": "devicon-tensorflow-original",
+              "level": 99
+            },
+            {
+              "name": "PyTorch",
+              "class": "devicon-pytorch-original",
+              "level": 99
+            },
+            {
+              "name": "Pandas",
+              "class": "devicon-pandas-original",
+              "level": 99
+            },
+            {
+              "name": "NumPy",
+              "class": "devicon-numpy-original",
+              "level": 99
+            },
+
+            {
+              "name": "Jupyter",
+              "class": "devicon-jupyter-plain",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Testing",
+          "icons": [
+            {
+              "name": "Selenium",
+              "class": "devicon-selenium-plain",
+              "level": 99
+            },
+            {
+              "name": "Mocha",
+              "class": "devicon-mocha-plain",
+              "level": 99
+            }
+          ]
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Other Tools",
+          "icons": [
+            {
+              "name": "Windows",
+              "class": "devicon-windows8-original",
+              "level": 99
+            },
+            {
+              "name": "Linux",
+              "class": "devicon-linux-plain",
+              "level": 99
+            },
+            {
+              "name": "macOS",
+              "class": "devicon-apple-original",
+              "level": 99
+            },
+            {
+              "name": "Git",
+              "class": "devicon-git-plain",
+              "level": 99
+            },
+            {
+              "name": "Figma",
+              "class": "devicon-figma-plain",
+              "level": 99
+            },
+            {
+              "name": "Arduino",
+              "class": "devicon-arduino-plain",
+              "level": 99
+            },
+            {
+              "name": "Ansible",
+              "class": "devicon-ansible-plain",
+              "level": 99
+            },
+            {
+              "name": "Photoshop",
+              "class": "devicon-photoshop-plain",
+              "level": 99
+            },
+            {
+              "name": "MATLAB",
+              "class": "devicon-matlab-plain",
+              "level": 99
+            },
+            {
+              "name": "VS Code",
+              "class": "devicon-vscode-plain",
+              "level": 99
+            }
+          ]
         }
       ]
     }
-  }
+    }

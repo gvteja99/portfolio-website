@@ -83,7 +83,8 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        <div className="col-md-12 mx-auto text-center language"
+         style={{ paddingBottom: "20px"  }}>
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -91,11 +92,11 @@ class App extends Component {
                 window.$secondaryLanguageIconId
               )
             }
-            style={{ display: "inline" }}
+            style={{ display: "inline"  }}
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +112,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-india"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -121,12 +122,12 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
         <Skills
           sharedSkills={this.state.sharedData.skills}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Experience
