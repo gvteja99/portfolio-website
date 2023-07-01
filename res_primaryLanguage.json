@@ -1,0 +1,116 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Venky, a passionate Full Stack Developer with a knack for scaling applications. 💻🚀 From frontend magic using React.js and Vue.js to backend sorcery with Node.js, Django, and Flask, I've got you covered. 🎨🔥 But what truly sets me apart is my expertise in scaling applications. ⚡️🔝 Whether it's optimizing databases like MongoDB and PostgreSQL, deploying on cloud platforms like AWS and Azure, or implementing containerization with Docker and Kubernetes, I've got the skills to architect and scale applications effectively. Let's connect and build amazing solutions together! 🤝💡 #FullStackDeveloper #ScalingPro #CodeWizard",
+      "section_name": {
+        "about": "About me",
+        "projects": "Recent Projects",
+        "skills": "Technical Skills",
+        "experience": "Professional Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Stack Overflow Clone",
+        "startDate": "2022",
+        "description": "This project is a prototype of Stack Overflow, designed and implemented as a 3-tier distributed web application. It incorporates user and admin personas and features such as reputation management, views, and pagination.The application is built to handle high volume traffic, using technologies such as Kafka for event streaming and Redis for caching. It also implements token-based authentication to ensure secure user access.",
+        "images": [
+          "images/portfolio/stackOverflowClone/p3.png",
+          "images/portfolio/stackOverflowClone/p3.png"
+        ],
+        "url": "https://github.com/gvteja99/stack-overflow-clone",
+        "technologies": [
+        ]
+      },
+      {
+        "title": "Uber Eats Clone",
+        "startDate": "2022",
+        "description": "This is a food delivery application, similar to UberEATS, using Redis, Kafka, and GraphQL. The project featured customer profile management, restaurant search, food preference filtering, order placement, and restaurant menu editing. I implemented a scalable microservices architecture with message queue middleware using Kafka to handle additional load. The application aimed to provide a seamless user experience and efficient communication between components.",
+        "images": [
+          "images/portfolio/uberEatsClone/p3.jpg",
+          "images/portfolio/uberEatsClone/p3.jpg"
+        ],
+        "url": "https://github.com/gvteja99/uber-eats-clone",
+        "technologies": [
+        ]
+      },
+      {
+        "title": "Etsy Clone",
+        "startDate": "2022",
+        "description": "This project is an Etsy clone, leveraging technologies such as Redux, Node.js, MongoDB, and GraphQL. The application allowed users to create profiles, browse and search for products, filter by categories, add items to their cart, and make purchases. I implemented a scalable microservices architecture with efficient communication and data retrieval using GraphQL. The project aimed to replicate the functionality and user experience of Etsy while incorporating modern web technologies.",
+        "images": [
+          "images/portfolio/etsyClone/p3.jpg",
+          "images/portfolio/etsyClone/p3.jpg"
+        ],
+        "url": "https://github.com/gvteja99/etsy-clone",
+        "technologies": [
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Foundation AI",
+        "title": "Software Engineer",
+        "years": "08.2020 - 07.2021",
+        "mainTech": [
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "PyTorch",
+          "TensorFlow",
+          "GraphQL",
+          "Bootstrap",
+          "AWS",
+          "Ansible",
+          "Bash"
+        ]
+      },
+      {
+        "company": "Foundation AI",
+        "title": "Software Engineer Intern",
+        "years": "01.2020 - 05.2020",
+        "mainTech": [
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "Python",
+          "LabelBox",
+          "JavaScript",
+          "Bash",
+          "Pandas",
+          "Numpy"
+        ]
+      },
+      {
+        "company": "WinC IT Services",
+        "title": "Software Engineer Intern",
+        "years": "01.2018 - 07.2018",
+        "mainTech": [
+          "Java",
+          "Spring",
+          "Android Studio",
+          "C#",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "Python",
+          "LabelBox",
+          "JavaScript",
+          "Bash",
+          "Pandas",
+          "Numpy"
+        ]
+      }
+    ]
+  }
