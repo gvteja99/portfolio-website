@@ -49,6 +49,28 @@
     ],
     "experience": [
       {
+        "company": "అగ్రిమ్ టెక్నాలజీస్ -- క్లయింట్: ఫౌండేషన్ యేఐ",
+        "title": "సాఫ్ట్‌వేర్ ఇంజనీర్ ఇంటర్న్/కో-ఆప్",
+        "years": "06.2022 - 05.2023",
+        "mainTech": [
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "PyTorch",
+          "TensorFlow",
+          "GraphQL",
+          "LangChain",
+          "AWS",
+          "Ansible",
+          "Bash"
+        ]
+      },
+      {
         "company": "ఫౌండేషన్ యేఐ",
         "title": "సాఫ్ట్‌వేర్ ఇంజనీర్",
         "years": "08.2020 - 07.2021",
@@ -94,14 +116,18 @@
       {
         "company": "విన్సి ఐటి సర్వీసెస్",
         "title": "సాఫ్ట్‌వేర్ ఇంజనీర్ ఇంటర్న్",
-        "years": "01.2018 - 07.2018",
+        "years": "05.2018 - 08.2018",
         "mainTech": [
-          "Android Studio"
-        ],
-        "technologies": [
           "Java",
           "Spring",
-          "C#"
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "Maven",
+          "JUnit",
+          "PostgreSQL",
+          "Docker"
         ]
       }
     ]

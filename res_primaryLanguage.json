@@ -49,6 +49,28 @@
     ],
     "experience": [
       {
+        "company": "Agrim Technologies -- Client: Foundation AI",
+        "title": "Software Engineer Intern/Co-op",
+        "years": "06.2022 - 05.2023",
+        "mainTech": [
+          "React",
+          "Flask",
+          "Docker",
+          "PostgreSQL",
+          "Kafka",
+          "Redis"
+        ],
+        "technologies": [
+          "PyTorch",
+          "TensorFlow",
+          "GraphQL",
+          "LangChain",
+          "AWS",
+          "Ansible",
+          "Bash"
+        ]
+      },
+      {
         "company": "Foundation AI",
         "title": "Software Engineer",
         "years": "08.2020 - 07.2021",
@@ -94,22 +116,18 @@
       {
         "company": "WinC IT Services",
         "title": "Software Engineer Intern",
-        "years": "01.2018 - 07.2018",
+        "years": "05.2018 - 08.2018",
         "mainTech": [
           "Java",
           "Spring",
-          "Android Studio",
-          "C#",
           "Kafka",
           "Redis"
         ],
         "technologies": [
-          "Python",
-          "LabelBox",
-          "JavaScript",
-          "Bash",
-          "Pandas",
-          "Numpy"
+          "Maven",
+          "JUnit",
+          "PostgreSQL",
+          "Docker"
         ]
       }
     ]
